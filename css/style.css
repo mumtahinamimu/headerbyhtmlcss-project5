@@ -1,0 +1,308 @@
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/*
+*{
+	margin: 0;
+	pading: 0;
+}
+
+*/
+/* quick header start*/
+
+
+
+.headerquick{
+	border: 1px solid #EEF0F3;
+	padding: 10px 0;
+}
+
+.container {
+	width: 90%;
+	/*border: 1px solid green;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo {
+	width: 10%;
+	/*border: 1px solid red;*/
+	float: left;
+}
+
+.logo a{
+}
+
+.logo a img{
+	width: 100%;
+}
+
+.menu {
+	width: 40%;
+	/*border: 1px solid red;*/
+	float: right;
+}
+
+.menu ul{
+	list-style: none;
+	float: right;
+
+}
+
+.menu ul li{
+	float: left;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	margin: 0px 15px;
+	display: inline-block;
+	font-size: 18px;
+	color: #0F2656;
+	text-transform: capitalize;
+}
+
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+
+.menu ul li a:hover{
+	color: #008AFF;
+}
+
+/*header end*/
+
+/*Text of Quick header end*/
+.point{
+	color: orangered;
+}
+
+/*notary header start*/
+.headernotary {
+	/*border: 1px solid red;*/
+	padding: 10px 0;
+
+}
+
+.containernotary {
+	/*border: 1px solid green;*/
+	width: 70%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logonotary {
+	/*border: 1px solid skyblue;*/
+	width: 15%;
+	float: left;
+}
+
+.logonotary a{
+
+}
+
+.logonotary a img{
+	width: 100%;
+}
+
+.menunotary {
+	/*border: 1px solid darkred;*/
+	width: 80%;
+	float: right;
+}
+
+.menunotary ul{
+	list-style: none;
+	float: right;
+}
+
+.menunotary ul li{
+	float: left;
+}
+
+.menunotary ul li a{
+	text-decoration: none;
+	margin: 0 10px;
+	display: block;
+	color: #4D5255;
+}
+
+.menunotary ul li:last-child a{
+	margin-right: 0;
+}
+
+.menunotary ul li:first-child a{
+	color: #B6193A;
+}
+
+.menunotary ul li a:hover{
+	color: #B6193A;
+}
+
+/*notary header end*/
+
+/*alex header start*/
+
+.headeralex{
+/*border: 1px solid red;*/
+padding: 10px 0;
+background-color: black;
+}
+
+.containeralex {
+	/*border: 1px solid green;*/
+	width: 90%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+/*
+.logoalex {
+	width: 10%;
+	float: left;
+}
+
+.logoalex a{
+
+}
+
+.logoalex a img{
+	width: 100%;
+}
+*/
+.menualex {
+	/*border: 1px solid darkred;*/
+	width: 50%;
+	float: right;
+}
+
+.menualex ul{
+	list-style: none;
+	float: right;
+}
+
+.menualex ul li{
+	float: left;
+}
+
+.menualex ul li a{
+	text-decoration: none;
+	display: block;
+	margin: 0 15px;
+	color: db232b;
+	font-family: roboto;
+	font-size: 16pt;
+	font-weight: bold;
+
+}
+
+.menualex ul li:last-child a{
+	margin-right: 0;
+}
+
+/*alex header end*/
+
+/*CSS practice: csss home to css link from w3schools*/
+h6{
+	font-size: 15pt;
+}
+
+#para1{
+	color: red;
+}
+
+.para1{
+	color: blueviolet;
+}
+
+h3.para1{
+	color: green;
+}
+
+p.red{
+	color: darkred;
+}
+
+p.para2{
+	background-color: yellow;
+}
+
+*{
+
+}
+
+h3,h6{
+
+}
+
+#opacity{
+	background-color: red;
+	opacity: 0.5;
+}
+.bgimage1{
+	min-height: 200px;
+}
+
+.bgimage2{
+	min-height: 300px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.bgimage3{
+	min-height: 100px;
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: scroll;
+}
+
+.bgimage4{
+	min-height: 300px;
+	background: red no-repeat right top scroll;
+}
+
+.solidborder{
+	border: 2px solid red;
+
+}
+
+.doubleborder{
+	border-style: double;
+	border-radius: 2px;
+}
+
+.mixborder{
+	border-top: solid red;
+	border-right: dotted green;
+	border-bottom: groove orange;
+	border-left: dashed; 5px;
+}
+
+.mixborder2{
+	border-style: dashed solid dotted;
+}
+
+.margininherit{
+	margin-left: 80px;
+}
+
+.ex1{
+	margin-left: inherit;
+}
+
+.outline1{
+	margin: 10px;
+  background:yellow;
+  border: 1px solid black;
+  outline: 5px solid red;
+}
+
+.outline2{
+	margin: 20px;
+  background:yellow;
+  border: 1px solid black;
+  outline: 5px solid green;
+  outline-offset: 10px;
+}
